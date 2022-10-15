@@ -1,4 +1,4 @@
-# Random Movie Quote Machine - [Live Preview](https://markdown-previewer-beryl.vercel.app/)
+# Random Movie Quote Machine - [Live Preview](https://markdown-previewer-tool.vercel.app/)
 A tool to preview your markdown in real-time.
 
 ![Markdown Previewer](https://user-images.githubusercontent.com/86703782/195990326-011850d3-a0b7-44c8-8d03-e0db259ce49d.png)
@@ -19,4 +19,4 @@ Challenges:
 - In the future, I need to make the editor sticky so it will stick to the top and users won't have to scroll back to edit if the preview's textbox is really long.
 
 ## Go see the page!
-See the page [here](https://markdown-previewer-beryl.vercel.app/).
+See the page [here](https://markdown-previewer-tool.vercel.app/).

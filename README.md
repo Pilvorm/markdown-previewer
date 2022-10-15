@@ -1,4 +1,4 @@
-# Random Movie Quote Machine - [Live Preview](https://markdown-previewer-tool.vercel.app/)
+# Markdown Previewer - [Live Preview](https://markdown-previewer-tool.vercel.app/)
 A tool to preview your markdown in real-time.
 
 ![Markdown Previewer](https://user-images.githubusercontent.com/86703782/195990326-011850d3-a0b7-44c8-8d03-e0db259ce49d.png)

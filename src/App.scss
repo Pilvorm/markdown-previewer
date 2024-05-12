@@ -1,5 +1,5 @@
 .App {
-    margin: 1% 2%;
+    padding: 1% 2%;
     // height: 100%;
 
     header{
@@ -13,8 +13,14 @@
     }
 }
 
-.light, .dark {
+.dark {
     background-color: #202124;
+    color: white !important;
+}
+
+.light {
+    background-color: #FFFFFF;
+    color: black !important;
 }
 
 .material-symbols-outlined {
@@ -64,7 +70,6 @@ h1 {
     align-items: center;
     padding: 10px 8px;
     border-radius: 5px 5px 0 0;
-    background-color: #F8F9FA;
     border: 1px solid #DEE2E6;
     border-bottom: none;
 
@@ -83,6 +88,14 @@ h1 {
         transition: all .125s ease-in-out;
     }
 
+}
+
+.toolbar-light {
+    background-color: #F8F9FA;
+}
+
+.toolbar-dark {
+    background-color: #303134;
 }
 
 .editor-side {

@@ -1,5 +1,5 @@
 .App {
-  margin: 1% 2%;
+  padding: 1% 2%;
 }
 .App header {
   display: flex;
@@ -10,14 +10,19 @@
   cursor: pointer;
 }
 
-.light, .dark {
+.dark {
   background-color: #202124;
+  color: white !important;
+}
+
+.light {
+  background-color: #FFFFFF;
+  color: black !important;
 }
 
 .material-symbols-outlined {
   -webkit-user-select: none; /* Safari */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE10+/Edge */
+  -moz-user-select: none; /* Firefox */ /* IE10+/Edge */
   user-select: none; /* Standard */
 }
 
@@ -60,7 +65,6 @@ h1 {
   align-items: center;
   padding: 10px 8px;
   border-radius: 5px 5px 0 0;
-  background-color: #F8F9FA;
   border: 1px solid #DEE2E6;
   border-bottom: none;
 }
@@ -75,6 +79,14 @@ h1 {
 .toolbar .sizing:hover {
   color: black;
   transition: all 0.125s ease-in-out;
+}
+
+.toolbar-light {
+  background-color: #F8F9FA;
+}
+
+.toolbar-dark {
+  background-color: #303134;
 }
 
 .editor-side {
@@ -150,7 +162,7 @@ h1 {
     justify-content: center;
   }
   .preview-side #preview td,
-.preview-side #preview th {
+  .preview-side #preview th {
     border: 1px solid black;
     padding: 5px;
   }
